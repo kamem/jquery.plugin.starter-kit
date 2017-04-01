@@ -8,8 +8,8 @@
   },
   "scripts": {
     "postinstall": "$(npm bin)/gulp build",
-    "watch": "gulp",
-    "build": "gulp build",
+    "watch": "$(npm bin)/gulp",
+    "build": "$(npm bin)/gulp build",
     "changes": "$(npm bin)/github-changes -o kamem -r jquery.plugin.starter-kit -b master -a --use-commit-body -z Asia/Tokyo"
   },
   "repository": {
